@@ -1,0 +1,287 @@
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.nav-link .icon {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-brand .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.custom-jumbotron {
+    position: relative;
+    background-image: url('/storage/background/background3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.custom-jumbotron::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.custom-jumbotron .display-4, 
+.custom-jumbotron .lead {
+    position: relative;
+    z-index: 2;
+}
+
+.custom-jumbotron .display-4 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.custom-jumbotron .lead {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-image: url('/storage/background/background4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 1750px;
+    margin: auto;
+}
+
+
+.container-form {
+    background-image: url('/storage/background/formbackground.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 10px; 
+    padding: 30px; 
+    color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 950px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.container-form h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #f1c40f; 
+    font-weight: bold; 
+}
+
+.form-control, .form-control-file, .form-control:focus, .form-control-file:focus {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #000; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.form-control::placeholder {
+    color: #666; 
+}
+
+.form-control-file::file-selector-button {
+    color: #fff; 
+    background: #007bff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+}
+
+.form-control-file::file-selector-button:hover {
+    background: #0056b3; 
+}
+
+.form-control-file::file-selector-button:focus {
+    outline: none; /* Menghilangkan outline pada tombol saat fokus */
+}
+
+.form-group label {
+    font-weight: bold; /* Membuat teks label lebih tebal */
+    color: #ecf0f1; /* Mengubah warna label menjadi putih keabu-abuan */
+}
+
+.form-control:focus {
+    border-color: #f1c40f; /* Mengubah warna border saat fokus */
+    box-shadow: 0 0 5px rgba(241, 196, 15, 0.5); /* Menambah bayangan saat fokus */
+}
+
+.btn-primary {
+    background-color: #f1c40f; /* Mengubah warna latar belakang tombol */
+    border: none; /* Menghilangkan border tombol */
+    color: #2c3e50; /* Mengubah warna teks tombol */
+    font-weight: bold; /* Membuat teks tombol lebih tebal */
+    padding: 10px 20px; /* Menambah padding pada tombol */
+    border-radius: 5px; /* Membuat sudut-sudut tombol membulat */
+}
+
+.btn-primary:hover {
+    background-color: #d4ac0d; /* Mengubah warna latar belakang tombol saat hover */
+    color: #fff; /* Mengubah warna teks tombol saat hover */
+}
+
+.btn-primary:focus {
+    outline: none; /* Menghilangkan outline pada tombol saat fokus */
+}
+
+.jumbotron {
+    border-radius: 140px;
+}
+
+.h2-home {
+    color: snow;
+    text-decoration: overline;
+    margin-bottom: 20px;
+}
+
+/* CSS untuk navbar */
+.navbar {
+    background-color: #343a40; /* Warna latar belakang navbar */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Beri teks brand tebal */
+    color: #ffffff; /* Warna teks brand */
+    font-size: 24px; /* Ukuran teks brand */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks link */
+    font-size: 20px; /* Ukuran teks link */
+}
+
+.navbar-toggler {
+    border-color: #ffffff; /* Warna ikon toggle navbar */
+    border-width: 3px; /* Lebar border ikon toggle navbar */
+    font-size: 24px; /* Ukuran teks ikon toggle navbar */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Warna ikon toggle navbar */
+    border-width: 3px; /* Lebar border ikon toggle navbar */
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Hapus focus outline pada toggle navbar */
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.07);
+}
+
+.table {
+    width: 100%;
+    margin: auto;
+    background-color: #2c3e50; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    color: white; 
+}
+
+.table th {
+    text-align: center; 
+    font-weight: bold; 
+    background-color: #f8f9fa; 
+    color: #333; 
+    border-color: #dee2e6; 
+    vertical-align: middle; 
+    padding: 8px; 
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 15px; 
+    text-align: center; 
+}
+
+.table thead {
+    background-color: #34495e; 
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #3b4a59; 
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #2c3e50; 
+}
+
+.table tbody tr:hover {
+    background-color: #4a5b6b; 
+}
+
+.table img {
+    border-radius: 5px;
+}
+
+.table .btn {
+    border-radius: 20px; 
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.table .btn-warning {
+    background-color: #f39c12; 
+    border: none;
+}
+
+.table .btn-danger {
+    background-color: #e74c3c; 
+    border: none; 
+}
+
+.table .badge {
+    padding: 5px 10px;
+    font-size: 14px; 
+    border-radius: 20px; 
+}
+
+/* CSS untuk Login Form */
+.card-header {
+    background-color: #343a40; /* Warna latar belakang header card */
+    color: white; /* Warna teks header card */
+    font-weight: bold; /* Memberi teks header card tebal */
+    padding: 10px 20px; /* Padding di dalam header card */
+    border-top-left-radius: 5px; /* Melengkungkan sudut atas kiri header card */
+    border-top-right-radius: 5px; /* Melengkungkan sudut atas kanan header card */
+}
+
+.card-body label {
+    color: #495057; /* Warna teks label di dalam card body */
+}
+
+.form-check-label {
+    color: #495057; /* Warna teks label "Remember Me" */
+}
+
